@@ -2,9 +2,13 @@ package com.demo;
 
 public class calculatorMain {
 
-public static void main(String args[]){
-	calculator calc = new calculator();
-	calc.add(20,30);
-	calc.substract(50,20);
-}
+	public static void main(String[] args) {
+		calculator cal = new calculator();
+		int sum = cal.add(10, 20);
+		System.out.println(sum);
+		int sub = cal.substract(30, 5);
+		System.out.println(sub);
+
+	}
+
 }
